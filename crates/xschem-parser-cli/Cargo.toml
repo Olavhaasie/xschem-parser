@@ -1,0 +1,19 @@
+[package]
+name = "xschem-parser-cli"
+description = "Xschem schematic and symbol parser CLI"
+version = "0.1.0"
+readme = "README.md"
+authors.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+keywords = ["parser", "schematic", "symbol", "electrical"]
+categories = ["parser-implementations", "command-line-utilities"]
+
+[dependencies]
+colored = "3"
+xschem-parser = { version = "0.1.0", path = "../xschem-parser" }
+
+[lints]
+workspace = true

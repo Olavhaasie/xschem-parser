@@ -1,0 +1,29 @@
+[workspace]
+resolver = "3"
+members = ["crates/*"]
+
+[workspace.package]
+version = "0.1.0"
+authors = ["Olav de Haas"]
+edition = "2024"
+rust-version = "1.85"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/Olavhaasie/xschem-parser"
+
+[workspace.metadata.crane]
+name = "xschem-parser-workspace"
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+warnings = "deny"
+
+[workspace.lints.clippy]
+all = { level = "deny", priority = -1 }
+pedantic = { level = "deny", priority = -2 }
+cargo = { level = "deny", priority = -1 }
+missing_errors_doc = "allow"
+negative-feature-names = "allow"
+
+[profile.dev.build-override]
+debug = false

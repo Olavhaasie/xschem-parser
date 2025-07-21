@@ -1,0 +1,32 @@
+[package]
+name = "xschem-parser"
+description = "Xschem schematic and symbol parser"
+documentation = "https://docs.rs/xschem-parser"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+readme.workspace = true
+repository.workspace = true
+keywords = ["parser", "schematic", "symbol", "electrical"]
+categories = ["parsing", "parser-implementations"]
+
+[dependencies]
+colored = "3"
+derive_more = { version = "2", features = [
+  "deref",
+  "deref_mut",
+  "display",
+  "from",
+  "into",
+  "try_from",
+] }
+nom = "8"
+nom_locate = "5"
+
+[features]
+no-color = ["colored/no-color"]
+
+[lints]
+workspace = true
