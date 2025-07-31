@@ -1,8 +1,9 @@
 # Xschem parser
 
 [![LICENSE](https://img.shields.io/badge/license-MIT_OR_APACHE_2.0-blue.svg)](./LICENSE-MIT)
-[![Build Status](https://github.com/Olavhaasie/xschem-parser/actions/workflows/check.yml/badge.svg)](https://github.com/Olavhaasie/xschem-parser/actions/workflows/ci.yml)
+[![Build Status](https://github.com/Olavhaasie/xschem-parser/actions/workflows/check.yml/badge.svg)](https://github.com/Olavhaasie/xschem-parser/actions/workflows/check.yml)
 [![crates.io Version](https://img.shields.io/crates/v/xschem-parser.svg)](https://crates.io/crates/xschem-parser)
+[![docs.rs](https://img.shields.io/docsrs/xschem-parser)](https://docs.rs/xschem-parser)
 [![Minimum rustc version](https://img.shields.io/badge/rustc-1.85.0+-lightgray.svg)](#rust-version-requirements-msrv)
 
 [Xschem] schematic and symbol parser implemented with [nom] parser combinators.
