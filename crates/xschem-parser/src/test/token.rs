@@ -107,8 +107,8 @@ fn schematic_to_string() {
 
     let expected = "\
         v {xschem version=3.4.5 file_version=1.2}\n\
-        S {}\n\
         K {type=regulator}\n\
+        S {}\n\
         T {@name} -17.5 -15 0 0 0.2 0.2 {}\n\
         P 3 4 0 0 1 1 0 1 0 0 {}\n\
         N 1 1 2 2 {lab=o}\n\
